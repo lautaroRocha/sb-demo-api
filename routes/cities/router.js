@@ -34,8 +34,8 @@ citiesRouter.get('/', (req, res)=>{
         res.send({
             'data':[
                 {"label":`Barrio 1 ${ciudad}`, "value":`Barrio 1 ${ciudad}`},
-                {"label":`Barrio 1 ${ciudad}`, "value":`Barrio 2 ${ciudad}`}, 
-                {"label":`Barrio 1 ${ciudad}`, "value":`Barrio 3 ${ciudad}`}
+                {"label":`Barrio 2 ${ciudad}`, "value":`Barrio 2 ${ciudad}`}, 
+                {"label":`Barrio 3 ${ciudad}`, "value":`Barrio 3 ${ciudad}`}
             ]})
     }
 
